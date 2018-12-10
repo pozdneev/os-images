@@ -1,5 +1,5 @@
 # Installing and configuring a Xubuntu 16.04 virtual machine for Java labs
-**NB:** If you use Firefox, always open web pages in Private Windows.
+**NB:** If you use a web browser (Firefox) while preparing an image, always open web pages in Private Windows.
 
 ## Installation
 1. Create a new Ubuntu VM in VirtualBox
