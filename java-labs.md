@@ -19,6 +19,7 @@
 1. `sudo apt-get upgrade`
 1. `sudo apt-get install vim`
 1. Install VirtualBox add-ons
+1. ~~`build-essential virtualbox-guest-x11-hwe`~~
 
 ## File system
 1. `rmdir Music Pictures Public Videos`
@@ -59,6 +60,7 @@
 1. System tray
     * Keyboard layout indicator
 1. Customize Firefox
+1. Move Xfce panel to the bottom
 
 ## Restart
 1. Restart
@@ -68,13 +70,13 @@
     * Unmount
     * Remove directory
     * Remove in a VirtualBox menu
-1. Clean the history:
+1. Clean history
     * Remove recent Eclipse workspaces
         * General > Startup and Shutdown > Workspaces
         * `$ECLIPSE/configuration/.setting` (`"RECENT_WORKSPACES="`)
     * Clean recent files in Eclipse workspaces
     * Clean Vim history
-        * rm .viminfo
+        * `rm .viminfo`
         * See: https://unix.stackexchange.com/questions/204689/how-to-clear-search-and-command-history-in-vim
     * Clean MousePad history
     * Terminal: `/dev/null > ~/.bash_history && history -c && exit`
