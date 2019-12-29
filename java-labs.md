@@ -15,7 +15,7 @@
     * `APT::Install-Recommends "false";`
     * `APT::Install-Suggests "false";`
 1. `sudo apt-get update`
-1. `sudo apt-get autoremove --purge unattended-upgrades pidgin* mugshot blue* xfce4-dict thunderbird* gnome-mines gnome-sudoku *burn* xfce4-notes* orage onboard* libreoffice-math simple-scan transmission-* parole gigolo xfce4-mailwatch-plugin xfce4-cpugraph-plugin xfce4-netload-plugin xfce4-weather-plugin gnome-software* xfce4-taskmanager system-config-printer-* firefox-locale-en libopencv-core2.4v5 liblcms2-utils friendly-recovery libasprintf-dev libgettextpo-dev libgettextpo0 liblouis-data python3-requests secureboot-db`
+1. `sudo apt-get autoremove --purge unattended-upgrades pidgin* mugshot blue* xfce4-dict thunderbird* gnome-mines gnome-sudoku *burn* xfce4-notes* orage onboard* libreoffice-math simple-scan transmission-* parole gigolo xfce4-mailwatch-plugin xfce4-cpugraph-plugin xfce4-netload-plugin xfce4-weather-plugin gnome-software* xfce4-taskmanager system-config-printer-* firefox-locale-en libopencv-core2.4v5 liblcms2-utils friendly-recovery libasprintf-dev libgettextpo-dev libgettextpo0 liblouis-data python3-requests secureboot-db apport-gtk aspell aspell-en ntfs-3g`
 1. `sudo apt-get upgrade`
 1. `sudo apt-get install vim`
 1. Install VirtualBox add-ons
